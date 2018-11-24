@@ -26,11 +26,8 @@ public abstract class AbstractCommentJudge implements CommentJudge {
             return false;
         }
 
-        if (line.contains(this.getCommentType().getStartType())) {
-            return true;
-        }
+        return line.contains(this.getCommentType().getStartType());
 
-        return false;
     }
 
     public long indexOfCommentStart() {
@@ -57,11 +54,8 @@ public abstract class AbstractCommentJudge implements CommentJudge {
         String endType = this.getCommentType().getEndType();
 
         //当前是否已经包含了注释结尾标志
-        if (line.contains(endType)) {
-            return true;
-        }
+        return line.contains(endType);
 
-        return false;
     }
 
     public long indexOfCommentEnd() {

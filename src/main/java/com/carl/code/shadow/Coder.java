@@ -7,7 +7,7 @@ package com.carl.code.shadow;
  *
  * @author carl
  * @date 2018/9/1 13:06
- * @Version 1.0
+ * @version 1.0
  */
 public class Coder {
 }

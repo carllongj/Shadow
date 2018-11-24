@@ -36,4 +36,9 @@ public class SingleCommentJudge extends AbstractCommentJudge implements CommentJ
     public long indexOfCommentEnd() {
         return 0;
     }
+
+    @Override
+    public boolean isLineEnd() {
+        return true;
+    }
 }
