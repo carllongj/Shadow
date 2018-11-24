@@ -70,4 +70,11 @@ public interface CommentJudge {
      * @return 返回当前注释的结束的索引位置
      */
     long indexOfCommentEnd();
+
+    /**
+     * 是否为行的结束
+     *
+     * @return 返回当前行是否已经完结
+     */
+    boolean isLineEnd();
 }

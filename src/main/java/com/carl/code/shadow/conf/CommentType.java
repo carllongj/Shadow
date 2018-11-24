@@ -33,6 +33,9 @@ public enum CommentType {
      */
     private String startType;
 
+    /**
+     * 当前注释的结束文本
+     */
     private String endType;
 
     CommentType(String startType, String endType) {

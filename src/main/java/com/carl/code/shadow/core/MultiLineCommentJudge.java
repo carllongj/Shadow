@@ -1,12 +1,11 @@
 package com.carl.code.shadow.core;
 
-import com.carl.code.shadow.common.StringUtils;
 import com.carl.code.shadow.conf.CommentJudge;
 import com.carl.code.shadow.conf.CommentType;
 
 /**
  * <p>Title: com.carl.code.shadow.core MultiLineCommentJudge</p>
- * <p>Description: </p>
+ * <p>Description: 多行注释判定</p>
  * <p>Company: </p>
  *
  * @author carl

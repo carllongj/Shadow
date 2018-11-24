@@ -77,4 +77,8 @@ public abstract class AbstractCommentJudge implements CommentJudge {
 
         return line.indexOf(endType);
     }
+
+    public boolean isLineEnd() {
+        return false;
+    }
 }
